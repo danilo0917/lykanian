@@ -13,7 +13,7 @@ import PageLoader from './components/PageLoader'
 import NftGlobalNotification from './views/Nft/components/NftGlobalNotification'
 import GlobalStyle from './style/Global'
 
-// Route-based code splitting
+// Route-based code splitting 
 // Only pool is included in the main bundle because of it's the most visited page'
 const Home = lazy(() => import('./views/Home'))
 const Farms = lazy(() => import('./views/Farms'))
